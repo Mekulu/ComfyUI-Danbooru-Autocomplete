@@ -1,0 +1,10 @@
+[project]
+name = "comfyui-danbooru-autocomplete"
+version = "1.0.0"
+description = "Danbooru tag autocomplete for ComfyUI prompt textboxes, with virtualized scrolling suggestion list"
+requires-python = ">=3.8"
+dependencies = ["requests"]
+
+[tool.comfy]
+DisplayName = "Danbooru Autocomplete (提示词自动补全)"
+Icon = ""
